@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import  NavBar  from './components/Navbar';
 import  Carousel  from './components/Carousel';
 import  Card  from './components/Cards/Card';
-// import {BrowserRouter, Routes, Route, Router } from 'react-router-dom';
 
 
 
@@ -11,7 +10,6 @@ import {
   BrowserRouter, Routes, Route
   
 } from "react-router-dom";
-
 
 
 import {Main} from './Stet/Main';
@@ -39,7 +37,6 @@ function App() {
     <Route path='./Stet/Scleaner' element={<Scleaner/>} />
     <Route path='./Stet/Complex' element={<Complex/>} />
     <Route path='./Stet/Regular' element={<Regular/>} />
-    
    </Routes> 
   </BrowserRouter>
    </>
