@@ -12,9 +12,9 @@ function BasicExample() {
       <Container>
         <Navbar.Brand href="#home">STO-Ditailen</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home"> <Link to="/"> Главная </Link> </Nav.Link>
+        <Navbar.Collapse id="basic-navbar-nav" >
+          <Nav className="me-auto"  >
+            <Nav.Link href="#home" > <Link to="/" > Главная </Link> </Nav.Link>
             <Nav.Link href="#link"> <Link to="./Stet/Record"> Записаться </Link> </Nav.Link>
             <NavDropdown title="Услуги" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1"> <Link to="./Stet/Usual">Обычная мойка</Link></NavDropdown.Item>
