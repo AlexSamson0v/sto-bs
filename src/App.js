@@ -14,7 +14,6 @@ import {Regular} from './Stet/Regular';
 function App() {
   return (
     <>
-   
    <NavBar/>
    <Carousel/>
    <Card/>
