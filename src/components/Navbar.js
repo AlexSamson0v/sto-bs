@@ -29,9 +29,7 @@ function BasicExample() {
             </NavDropdown>
           </Nav>
           <Nav>
-           <Button variant='primary' className='mr-2'> <Nav.Link href="components/Login">  Логин </Nav.Link>  </Button>
-          <Button variant='primary'>  <Nav.Link href="/"> Sign out  </Nav.Link> </Button> 
-
+           <Button variant='primary' className='mr-2'> <Nav.Link href="/components/Login">  Логин </Nav.Link>  </Button>
           </Nav>
         </Navbar.Collapse>
       </Container>
