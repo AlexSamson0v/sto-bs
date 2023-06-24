@@ -1,8 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  NavBar  from './components/Navbar';
-import  Carousel  from './components/Carousel';
-import  Card  from './components/Cards/Card/Card';
 import { Routes, Route} from "react-router-dom";
 import Record from './Conteiners/RecordPage/Record';
 import {Ditaling} from './Conteiners/DitailingPage/Ditaling';
@@ -10,17 +8,20 @@ import {Usual} from './Conteiners/UsualPage/Usual'
 import {Scleaner} from './Conteiners/SclinerPage/Scleaner';
 import {Complex} from './Conteiners/ComplexPage/Complex';
 import {Regular} from './Conteiners/RegularPage/Regular';
-import { Navbar } from 'react-bootstrap';
+
+import { Home } from './Conteiners/HomePage/Home';
 import Login from './components/Login';
+
 
 function App() {
   return (
     <>
    <NavBar/>
-   <Carousel/>
-   <Card/>
+
+   {/* <Card/> */}
    <Routes> 
-   <Route path='/' element={<Navbar/>} />
+
+    <Route path='/' element={<Home/>} />
     <Route path='/Conteiners/RecordPage/Record' element={<Record/>} />
     <Route path='/Conteiners/UsualPage/Usual' element={<Usual/>} />
     <Route path='/Conteiners/DitailingPage/Ditaling' element={<Ditaling/>} />
