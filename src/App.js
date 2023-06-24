@@ -8,16 +8,17 @@ import {Usual} from './Conteiners/UsualPage/Usual'
 import {Scleaner} from './Conteiners/SclinerPage/Scleaner';
 import {Complex} from './Conteiners/ComplexPage/Complex';
 import {Regular} from './Conteiners/RegularPage/Regular';
+import Register from './components/Register';
 
 import { Home } from './Conteiners/HomePage/Home';
 import Login from './components/Login';
+
 
 
 function App() {
   return (
     <>
    <NavBar/>
-
    {/* <Card/> */}
    <Routes> 
 
@@ -28,6 +29,8 @@ function App() {
     <Route path='/Conteiners/SclinerPage/Scleaner' element={<Scleaner/>} />
     <Route path='/Conteiners/ComplexPage/Complex' element={<Complex/>} />
     <Route path='/Conteiners/RegularPage/Regular' element={<Regular/>} />
+    <Route path='/components/Register' element={<Register/>} />
+
     <Route path='/components/Login' element={<Login/>} />
 
    </Routes> 

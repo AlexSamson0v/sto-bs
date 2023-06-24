@@ -50,7 +50,7 @@ const Login = ({ onRegister, onLoading }) => {
             </button>
             <div className="auth__singin">
               <p className="auth__signin-text">Уже зарегистрированы?</p>
-              <Link to="/sign-in" className="auth__signin-link">Войти</Link>
+              <Link to="/components/Login" className="auth__signin-link">Войти</Link>
             </div>
           </div>
         </form>
