@@ -8,19 +8,19 @@ import React from 'react';
 function UncontrolledExample() {
   return (
     <Carousel>
-      <Carousel.Item className='h-50'>
+      <Carousel.Item >
         <img
           className="d-block w-100 h70"
           src={car1}
           alt="First slide"
           
-        />
+/>
         <Carousel.Caption>
           <h3>Бесконтактная мойка</h3>
           <p>Исключает абразивное механическое воздействие на лакокрасочное покрытие.</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item >
         
         <img
           className="d-block w-100 "
@@ -33,7 +33,7 @@ function UncontrolledExample() {
           <p>Удаляет сложные загрязнения, такие как потеки масла, копоть и т.д..</p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item >
         <img
           className="d-block w-100 "
           src={car3}
@@ -47,7 +47,7 @@ function UncontrolledExample() {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item >
         <img
           className="d-block w-100 "
           src={car4}
@@ -61,7 +61,7 @@ function UncontrolledExample() {
           </p>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item >
         <img
           className="d-block w-100 "
           src={car5}
