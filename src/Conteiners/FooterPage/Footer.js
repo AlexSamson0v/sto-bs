@@ -21,7 +21,7 @@ export default function App() {
             </MDBCol>
 
             <MDBCol md='5' size='12' className='mb-4 mb-md-0'>
-              <MDBInput type='text' id='form5Example2' label='Email address' />
+              <MDBInput type='text' id='form5Example2' label='Email адресс' />
             </MDBCol>
 
             <MDBCol size='auto' className='mb-4 mb-md-0'>
