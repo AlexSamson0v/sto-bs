@@ -1,63 +1,80 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import {
+  MDBBtn,
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBCard,
+  MDBCardBody,
+  MDBInput,
+  MDBRadio
+}
+ 
 
-const Login = ({ onRegister, onLoading }) => {
-  const [values, setValues] = useState({});
+from 'mdb-react-ui-kit';
+import './bludi.css';
 
-  function handleChange(event) {
-    const { name, value } = event.target;
-    setValues((prev) => ({ ...prev, [name]: value }))
-  }
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    onRegister(values);
-  }
-
+function App() {
   return (
-    <div className='auth root__container'>
-      <div className='auth__container'>
-        <form
-          className='auth__form'
-          onSubmit={handleSubmit}
-        >
-          <h3 className='auth__form-title'>Регистраия</h3>
-          <div className='auth__form-input-area'>
-            <input
-              value={values.email || ''}
-              onChange={handleChange}
-              className="auth__form-input"
-              type="email"
-              placeholder="Email"
-              name="email"
-              required
-            />
-            <span className="auth__form-input-error"></span>
-            <input
-              value={values.password || ''}
-              onChange={handleChange}
-              className="auth__form-input"
-              type="password"
-              placeholder="Пароль"
-              name="password"
-              required
-            />
-            <span className="auth__form-input-error"></span>
-          </div>
-          <div>
-            <button className="auth__form-btn" type="submit" aria-label="Логин">
-              {onLoading ? "Регистрация..." : "Зарегистрироваться"}
-            </button>
-            <div className="auth__singin">
-              <p className="auth__signin-text">Уже зарегистрированы?</p>
-              <Link to="/components/Login" className="auth__signin-link">Войти</Link>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  )
+    <MDBContainer fluid className='bludi'>
 
+      <MDBRow className='justify-content-center align-items-center m-5'>
+
+        <MDBCard>
+          <MDBCardBody className='px-4'>
+
+            <h3 className="fw-bold mb-4 pb-2 pb-md-0 mb-md-5">Регистрация</h3>
+
+            <MDBRow>
+
+              <MDBCol md='6'>
+                <MDBInput wrapperClass='mb-4' label='Имя' size='lg' id='form1' type='text'/>
+              </MDBCol>
+
+              <MDBCol md='6'>
+                <MDBInput wrapperClass='mb-4' label='Фамилия' size='lg' id='form2' type='text'/>
+              </MDBCol>
+              <MDBCol md='6'>
+                <MDBInput wrapperClass='mb-4' label='Отчество' size='lg' id='form2' type='text'/>
+              </MDBCol>
+            </MDBRow>
+
+            <MDBRow>
+
+              <MDBCol md='6'>
+                <MDBInput wrapperClass='mb-4' label='Дата Рождения' size='lg' id='form3' type='text'/>
+              </MDBCol>
+
+              <MDBCol md='6' className='mb-4'>
+                <h6 className="fw-bold">Пол: </h6>
+                <MDBRadio name='inlineRadio' id='inlineRadio1' value='option1' label='Женский' inline />
+                <MDBRadio name='inlineRadio' id='inlineRadio2' value='option2' label='Мужской' inline />
+                <MDBRadio name='inlineRadio' id='inlineRadio3' value='option3' label='Другой' inline />
+              </MDBCol>
+
+            </MDBRow>
+
+            <MDBRow>
+
+              <MDBCol md='6'>
+                <MDBInput wrapperClass='mb-4' label='Email' size='lg' id='form4' type='email'/>
+              </MDBCol>
+
+              <MDBCol md='6'>
+                <MDBInput wrapperClass='mb-4' label='Номер Телефона' size='lg' id='form5' type='rel'/>
+              </MDBCol>
+
+            </MDBRow>
+
+
+            <MDBBtn className='mb-4' size='lg'>Предоставить на расмотрение</MDBBtn>
+
+          </MDBCardBody>
+        </MDBCard>
+
+      </MDBRow>
+    </MDBContainer>
+  );
 }
 
-export default Login
+export default App;
