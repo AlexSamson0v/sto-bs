@@ -27,10 +27,7 @@ function App() {
           </h1>
 
           <p className='px-3' style={{color: 'hsl(217, 10%, 50.8%)'}}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Eveniet, itaque accusantium odio, soluta, corrupti aliquam
-            quibusdam tempora at cupiditate quis eum maiores libero
-            veritatis? Dicta facilis sint aliquid ipsum atque?
+          Оставьте свою машину звенящей вместе с нами! Лучшие профессионалы и высококачественные продукты для ухода за вашим автомобилем. Полная уборка с пылесосом, чистка обивки и чистка двигателя. Ознакомьтесь с нашими специальными условиями и наслаждайтесь!
           </p>
 
         </MDBCol>
