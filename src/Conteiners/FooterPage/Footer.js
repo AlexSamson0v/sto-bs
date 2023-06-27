@@ -21,7 +21,7 @@ export default function App() {
             </MDBCol>
 
             <MDBCol md='5' size='12' className='mb-4 mb-md-0'>
-              <MDBInput type='text' id='form5Example2' label='Email адресс' />
+              <MDBInput type='text' id='form5Example2' label='Email адрес' />
             </MDBCol>
 
             <MDBCol size='auto' className='mb-4 mb-md-0'>
@@ -33,7 +33,7 @@ export default function App() {
 
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         &copy; {new Date().getFullYear()} ProSto:{' '}
-        <a className='text-dark' href='https://mdbootstrap.com/'>
+        <a className='text-dark' href='https://pro100-program.ru/'>
           prosto@gmail.com
         </a>
       </div>

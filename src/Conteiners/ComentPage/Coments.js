@@ -30,7 +30,7 @@ export default function Add() {
                   />
 
                   <div className="w-100">
-                    <MDBTypography tag="h5">Add a comment</MDBTypography>
+                    <MDBTypography tag="h5">Коментарии</MDBTypography>
                     <div>
                       <a href="https://otzovik.com/">
                         <MDBIcon far icon="star text-danger me-1" />
@@ -40,12 +40,11 @@ export default function Add() {
                         <MDBIcon far icon="star text-danger me-1" />
                       </a>
                     </div>
-                    <MDBTextArea label="What is your view?" rows={4} />
+                    <MDBTextArea label="Оставьте ваш коментарий" rows={4} />
 
                     <div className="d-flex justify-content-between mt-3">
-                      <MDBBtn color="success">Danger</MDBBtn>
                       <MDBBtn color="danger">
-                        Send <MDBIcon fas icon="long-arrow-alt-right ms-1" />
+                       Отправить <MDBIcon fas icon="long-arrow-alt-right ms-1" />
                       </MDBBtn>
                     </div>
                   </div>

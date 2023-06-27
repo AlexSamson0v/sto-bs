@@ -6,11 +6,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import React from 'react';
 import Clock from './Clock/Clock';
+// import Toggle from './Toggle/Toggle';
 
 function BasicExample() {
   return (
     <>
-  <Clock/>
+  
     <Navbar bg="primary" variant="dark" expand="lg" className='fixed-top'>
       <Container>
         <Navbar.Brand href="/">STO-Ditailen</Navbar.Brand>
@@ -33,11 +34,12 @@ function BasicExample() {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Nav>
+          <Nav> 
            <Button variant='primary' className='mr-2'> <Nav.Link href="/components/Register">  Зарегистрироваться </Nav.Link>  </Button>
 
            <Button variant='primary' className='mr-2'> <Nav.Link href="/components/Login">  Войти </Nav.Link>  </Button>
-          </Nav>
+         <Clock/> 
+         </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>

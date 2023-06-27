@@ -9,6 +9,7 @@ import MC5 from "../../../img/MC5.jpg";
 import MC6 from "../../../img/MC6.jpg";
 // import MC7 from "../../../img/MC6.jpg";
 // import MC8 from "../../../img/MC7.jpg";
+import { Link } from 'react-router-dom';
 
 
 
@@ -23,10 +24,13 @@ function BasicExample() {
                 <Card.Body>
                   <Card.Title>Бесконтактная мойка</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                  Щадящий вид мойки автомобиля.
+                   При помощи специальных химических веществ и особой методики
+                    проведения 
                   </Card.Text>
-                  <Button variant="primary">Подробнее</Button>
+                  <Link to="/Conteiners/UsualPage/Usual">
+                   <Button  variant="primary">Подробнее</Button>
+                  </Link>
                 </Card.Body>
             </Card>
         </Col>
@@ -37,10 +41,12 @@ function BasicExample() {
                 <Card.Body>
                   <Card.Title>Мойка + пылесос</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                  Салон автомобиля очень уязвим для пыли и грязи, обивка кресел и
+                   ковролин под ногами впитывают пыль с фантастической скоростью.
                   </Card.Text>
-                  <Button variant="primary">Подробнее</Button>
+                  <Link to="/Conteiners/ScleanerPage/Scleaner">
+                   <Button  variant="primary">Подробнее</Button>
+                  </Link>
                 </Card.Body>
             </Card>
         </Col>
@@ -51,10 +57,11 @@ function BasicExample() {
                 <Card.Body>
                   <Card.Title>Нанесение воска</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                  Кроме красивого внешнего вида, как минимум Продлевает срок службы краски и лака, которыми покрыт кузов
                   </Card.Text>
-                  <Button variant="primary">Подробнее</Button>
+                  <Link to="/Conteiners/RegularPage/Regular">
+                   <Button  variant="primary">Подробнее</Button>
+                  </Link>
                 </Card.Body>
             </Card>
         </Col>
@@ -65,10 +72,13 @@ function BasicExample() {
                 <Card.Body>
                   <Card.Title>Антидождь</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                  Водоотталкивающие составы для обработки
+                   стекол и наружных зеркал транспортного средства.
+                   Отталкивают пыль и грязь.
                   </Card.Text>
-                  <Button variant="primary">Подробнее</Button>
+                  <Link to="/Conteiners/UsualPage/Usual">
+                   <Button  variant="primary">Подробнее</Button>
+                  </Link>
                 </Card.Body>
             </Card>
         </Col>
@@ -79,10 +89,12 @@ function BasicExample() {
                 <Card.Body>
                   <Card.Title>Мойка двигателя</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                  Мойка двигателя замедлит процессы коррозии металлов,
+                   вызываемой агрессивными реагентами, летящими с дороги
                   </Card.Text>
-                  <Button variant="primary">Подробнее</Button>
+                  <Link to="/Conteiners/UsualPage/Usual">
+                   <Button  variant="primary">Подробнее</Button>
+                  </Link>
                 </Card.Body>
             </Card>
         </Col>
@@ -93,10 +105,13 @@ function BasicExample() {
                 <Card.Body>
                   <Card.Title>Детальная мойка</Card.Title>
                   <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                  Наиболее тщательная комплексная процедура ухода за автомобилем.
+                   Цель детейлинга – вернуть автомобилю «былой лоск»
                   </Card.Text>
-                  <Button variant="primary">Подробнее</Button>
+                  
+                  <Link to="/Conteiners/DitalingPage/Ditaling">
+                   <Button  variant="primary">Подробнее</Button>
+                  </Link>
                 </Card.Body>
             </Card>
         </Col>

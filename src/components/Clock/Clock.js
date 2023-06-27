@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 import './Style.css';
+import { colors } from '@material-ui/core';
 
 
 
@@ -26,7 +27,7 @@ function Clock() {
   const timeString = `${hours}:${minutes}:${seconds}`;
 
   return (
-    <div className='Clockkk'>
+    <div style={{ paddingTop: '2rem', paddingBottom: '2rem', color: 'white',fontWeight:'bold'}}>
       <h1>{timeString}</h1>
     </div>
   );

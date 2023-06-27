@@ -13,8 +13,10 @@ import {
 from 'mdb-react-ui-kit';
 
 import './Login.css';
+import Footer from '../Conteiners/FooterPage/Footer'
 function App() {
   return (
+    <>
     <MDBContainer fluid className='p-4 login'>
 
       <MDBRow>
@@ -27,7 +29,7 @@ function App() {
           </h1>
 
           <p className='px-3' style={{color: 'hsl(217, 10%, 50.8%)'}}>
-          Оставьте свою машину звенящей вместе с нами! Лучшие профессионалы и высококачественные продукты для ухода за вашим автомобилем. Полная уборка с пылесосом, чистка обивки и чистка двигателя. Ознакомьтесь с нашими специальными условиями и наслаждайтесь!
+           Лучшие профессионалы и высококачественные продукты для ухода за вашим автомобилем. Полная уборка с пылесосом, чистка обивки и чистка двигателя. Ознакомьтесь с нашими специальными условиями и наслаждайтесь!
           </p>
 
         </MDBCol>
@@ -50,7 +52,7 @@ function App() {
 
               <div className="text-center">
 
-                <p>или воспользуйтесь::</p>
+                <p>или воспользуйтесь:</p>
 
                 <MDBBtn tag='a' color='none' className='mx-3' style={{ color: '#1266f1' }}>
                   <MDBIcon fab icon='facebook-f' size="sm"/>
@@ -78,6 +80,8 @@ function App() {
       </MDBRow>
 
     </MDBContainer>
+    <Footer/>
+    </>
   );
 }
 

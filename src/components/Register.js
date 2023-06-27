@@ -13,9 +13,11 @@ import {
 
 from 'mdb-react-ui-kit';
 import './bludi.css';
+import Footer from '../Conteiners/FooterPage/Footer'
 
 function App() {
   return (
+    <>
     <MDBContainer fluid className='bludi'>
 
       <MDBRow className='justify-content-center align-items-center m-5'>
@@ -74,6 +76,8 @@ function App() {
 
       </MDBRow>
     </MDBContainer>
+    <Footer/>
+    </>
   );
 }
 

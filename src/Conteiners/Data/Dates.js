@@ -9,7 +9,7 @@ return (
 	display: 'block',
 	width: 'fit-content'
 	}}>
-	<h3>на какую дату вы планируете?</h3>
+	<h3>На какую дату вы планируете?</h3>
 	<TextField
 		id="date"
 		label="выберите дату"

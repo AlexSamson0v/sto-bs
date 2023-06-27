@@ -14,6 +14,7 @@ from 'mdb-react-ui-kit';
 
 import Dates from '../Data/Dates';
 import Time from '../Time/Time';
+import Footer from '.././FooterPage/Footer';
 
 function Record() {
   return (
@@ -74,6 +75,7 @@ function Record() {
       </MDBRow>
 
     </MDBContainer>
+    <Footer/>
 </>
   );
 }
