@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 import Footer from '.././FooterPage/Footer';
 import Tabl from '../TablPage/Tabl';
 
-function Ditaling() {
+function Dit() {
   return (
     <> 
     <MDBContainer fluid className="my-5">
@@ -29,21 +29,21 @@ function Ditaling() {
             />
             <MDBCardBody>
               <div className="text-center">
-                <MDBCardTitle>Бесконтактныя мойка</MDBCardTitle>
-                <p className="text-muted mb-4">Кузов обещает долго жить</p>
+                <MDBCardTitle>Дитальная мойка</MDBCardTitle>
+                <p className="text-muted mb-4">Все что может испачкаться,может быть и намыто</p>
               </div>
               <div>
                 <div className="d-flex justify-content-between">
-                  <span>Техническая мойка (наружная мойка с применением пены)</span>
-                  <span>₽400</span>
+                  <span>Комплексаная мойка с разбором,нанесение воска,антидождь,полировка кузова</span>
+                  <span>₽5000</span>
                 </div>
                 <div className="d-flex justify-content-between">
                   <span>2 класс авто</span>
-                  <span>₽450</span>
+                  <span>₽7000</span>
                 </div>
                 <div className="d-flex justify-content-between">
                   <span>3 класс авто</span>
-                  <span>₽500</span>
+                  <span>₽10000</span>
                 </div>
               </div>
               < Link to="/Conteiners/RecordPage/Record">
@@ -60,4 +60,4 @@ function Ditaling() {
   );
 }
 
-export default Ditaling;
+export default Dit;

@@ -29,21 +29,21 @@ function Complex() {
             />
             <MDBCardBody>
               <div className="text-center">
-                <MDBCardTitle>Бесконтактныя мойка</MDBCardTitle>
-                <p className="text-muted mb-4">Кузов обещает долго жить</p>
+                <MDBCardTitle>Комплексная мойка </MDBCardTitle>
+                <p className="text-muted mb-4">Вкус нового автомобиля</p>
               </div>
               <div>
                 <div className="d-flex justify-content-between">
-                  <span>Техническая мойка (наружная мойка с применением пены)</span>
-                  <span>₽400</span>
+                  <span>Мойка днища,кузова,салона,двигателя,радиатора.колес и т.д.</span>
+                  <span>₽1100</span>
                 </div>
                 <div className="d-flex justify-content-between">
                   <span>2 класс авто</span>
-                  <span>₽450</span>
+                  <span>₽1600</span>
                 </div>
                 <div className="d-flex justify-content-between">
                   <span>3 класс авто</span>
-                  <span>₽500</span>
+                  <span>₽2300</span>
                 </div>
               </div>
               < Link to="/Conteiners/RecordPage/Record">

@@ -29,21 +29,21 @@ function Scleaner() {
             />
             <MDBCardBody>
               <div className="text-center">
-                <MDBCardTitle>Бесконтактныя мойка</MDBCardTitle>
-                <p className="text-muted mb-4">Кузов обещает долго жить</p>
+                <MDBCardTitle>Полная мойка</MDBCardTitle>
+                <p className="text-muted mb-4">В чистоте и не  обиде</p>
               </div>
               <div>
                 <div className="d-flex justify-content-between">
-                  <span>Техническая мойка (наружная мойка с применением пены)</span>
-                  <span>₽400</span>
+                  <span>стандартная мойка + пылесос салона + протирка панели приборов, обивки дверей + чистка стекол</span>
+                  <span>₽600</span>
                 </div>
                 <div className="d-flex justify-content-between">
                   <span>2 класс авто</span>
-                  <span>₽450</span>
+                  <span>₽650</span>
                 </div>
                 <div className="d-flex justify-content-between">
                   <span>3 класс авто</span>
-                  <span>₽500</span>
+                  <span>₽700</span>
                 </div>
               </div>
               < Link to="/Conteiners/RecordPage/Record">

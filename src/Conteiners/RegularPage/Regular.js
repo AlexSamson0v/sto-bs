@@ -29,21 +29,21 @@ function Regular() {
             />
             <MDBCardBody>
               <div className="text-center">
-                <MDBCardTitle>Бесконтактныя мойка</MDBCardTitle>
-                <p className="text-muted mb-4">Кузов обещает долго жить</p>
+                <MDBCardTitle>Нанесение твердого воска</MDBCardTitle>
+                <p className="text-muted mb-4">Блестеть будет как ...</p>
               </div>
               <div>
                 <div className="d-flex justify-content-between">
-                  <span>Техническая мойка (наружная мойка с применением пены)</span>
-                  <span>₽400</span>
+                  <span>Покрытие твердым воском кузова автомобиля</span>
+                  <span>₽2000</span>
                 </div>
                 <div className="d-flex justify-content-between">
                   <span>2 класс авто</span>
-                  <span>₽450</span>
+                  <span>₽2500</span>
                 </div>
                 <div className="d-flex justify-content-between">
                   <span>3 класс авто</span>
-                  <span>₽500</span>
+                  <span>₽3000</span>
                 </div>
               </div>
               < Link to="/Conteiners/RecordPage/Record">
