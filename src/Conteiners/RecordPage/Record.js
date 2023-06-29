@@ -19,7 +19,7 @@ import Footer from '.././FooterPage/Footer';
 function Record() {
   return (
     <>
-    <MDBContainer fluid className='bg-dark'>
+    <MDBContainer fluid className='bg-dark' style={{ paddingTop: '2rem'}}>
 
       <MDBRow className='d-flex justify-content-center align-items-center h-100'>
         <MDBCol>

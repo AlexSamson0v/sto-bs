@@ -12,7 +12,7 @@ function BasicExample() {
   return (
     <>
   
-    <Navbar bg="primary" variant="dark" expand="lg" className='fixed-top'>
+    <Navbar bg="primary" variant="dark" expand="lg" className='fixed-top navcont'>
       <Container>
         <Navbar.Brand href="/">STO-Ditailen</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
